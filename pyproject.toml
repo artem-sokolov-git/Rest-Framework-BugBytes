@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "rest-framework-bugbytes"
+version = "0.1.0"
+description = "It's a training project"
+authors = ["Artem Sokolov <artem.sokolov.dev@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1.2"
+djangorestframework = "^3.15.2"
+django-extensions = "^3.2.3"
+asgiref = "^3.8.1"
+pillow = "^11.0.0"
+tzdata = "^2024.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
